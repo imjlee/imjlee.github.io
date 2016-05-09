@@ -1,0 +1,57 @@
+body {
+	text-align: Center;
+	font-family: "Interstate Condensed", sans-serif;
+	font-size: 16px;
+	background-image: url(../images/main_banner.jpg);
+	background-size: cover;
+	background-color: #fff;
+	background-position: center;
+	background-repeat:no-repeat;
+	padding-top: 50px;
+}
+
+h1 {
+	color: white;
+	font-size: 42px;
+}
+
+h2 {
+	color: white;
+	font-size: 24px;
+}
+
+p {
+	text-align: justify;
+	align-content: center;
+	color: white;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+.padding {
+	padding-top: 10px
+}
+	
+.styleButton {
+	  padding: 9px 29px;
+	  margin-top: 3px;
+	  color: #FFAA00;
+	  font-family: "Interstate Condensed", sans-serif;
+	  border: 2px solid #FFAA00;
+	  border-radius: 4px;
+	  text-transform: uppercase;
+	  background-color: transparent;
+	  letter-spacing: 1px;
+}
+
+.styleButton2 {
+	  padding: 9px 29px;
+	  margin-top: 3px;
+	  color: #ffffff;
+	  font-family: "Interstate Condensed", sans-serif;
+	  border: 2px solid #ffffff;
+	  border-radius: 4px;
+	  text-transform: uppercase;
+	  background-color: transparent;
+	  letter-spacing: 1px;
+}
