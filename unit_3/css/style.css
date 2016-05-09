@@ -1,40 +1,32 @@
-@import url(https://fonts.googleapis.com/css?family=Anton);
-
 body {
-	text-align: Left;
+	text-align: Center;
+	font-family: "Interstate Condensed", sans-serif;
 	font-size: 16px;
 	background-image: url(../images/main_banner.jpg);
 	background-size: cover;
 	background-color: #fff;
 	background-position: center;
 	background-repeat:no-repeat;
-	padding: 20px;
+	padding-top: 40px;
 }
 
 h1 {
-	font-family: 'Anton', sans-serif;
-	text-transform: lowercase;
 	color: white;
-	font-size: 64px;
+	font-size: 42px;
 }
 
 h2 {
 	color: white;
-	font-size: 26px;
-	font-family: "Interstate Condensed", sans-serif;
+	font-size: 24px;
 }
 
 p {
-	font-family: "Interstate Condensed", sans-serif;
-	font-size: 16px;
-	line-height: 1.5em;
+	text-align: justify;
 	align-content: center;
 	color: white;
+	padding: 20px;
 }
-	
-.style {
-	width: 40%;
-}
+
 	
 .styleButton {
 	  padding: 9px 29px;
@@ -59,4 +51,3 @@ p {
 	  background-color: transparent;
 	  letter-spacing: 1px;
 }
-
