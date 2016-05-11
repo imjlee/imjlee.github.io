@@ -1,14 +1,46 @@
 @import url(https://fonts.googleapis.com/css?family=Anton);
 
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+}
+
+aside {
+	background-color: #FFC675;
+}
+
+article {
+	background-color: #E89C6C;
+}
+
+footer {
+	background-color: #FF957E;
+	text-align:center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+div {
+	background-color: #FFE2B8;
+}
+
 body {
-	text-align: left;
 	font-size: 16px;
 	background-image: url(../images/main_banner.jpg);
 	background-size: cover;
-	background-color: #fff;
+	background-color: #FDE3B6;
 	background-position: center center;
 	background-repeat:no-repeat;
-	padding: 20px;
+}
+
+h1, h2, p {
+	-webkit-margin-before: 0em;
+	margin-left: 20px;
 }
 
 h1 {
@@ -34,6 +66,24 @@ p {
 	
 .style {
 	width: 40%;
+}
+
+ul.list {
+	text-align: right;
+
+}
+
+ul.list li {
+	list-style-type: none;
+	width: auto;
+	padding: 0 20px;
+	display: inline-block;
+	text-align: right;
+}
+
+.styleButton, .styleButton2 {
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 	
 .styleButton {
