@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css?family=Anton);
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+}
+
+aside {
+	background-color: #FFC675;
+}
+
+article {
+	background-color: #E89C6C;
+}
+
+footer {
+	background-color: #FF957E;
+	text-align:center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+div {
+	background-color: #FFE2B8;
+}
+
+body {
+	font-size: 16px;
+	background-image: url(../images/main_banner.jpg);
+	background-size: cover;
+	background-color: #FDE3B6;
+	background-position: center center;
+	background-repeat:no-repeat;
+}
+
+h1, h2, p {
+	-webkit-margin-before: 0em;
+	margin-left: 20px;
+}
+
+h1 {
+	font-family: 'Anton', sans-serif;
+	text-transform: lowercase;
+	color: white;
+	font-size: 64px;
+}
+
+h2 {
+	color: white;
+	font-size: 26px;
+	font-family: "Interstate Condensed", sans-serif;
+}
+
+p {
+	font-family: "Interstate Condensed", sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	align-content: center;
+	color: white;
+}
+	
+.style {
+	width: 40%;
+}
+
+ul.list {
+	text-align: right;
+
+}
+
+ul.list li {
+	list-style-type: none;
+	width: auto;
+	padding: 0 20px;
+	display: inline-block;
+	text-align: right;
+}
+
+.styleButton, .styleButton2 {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+	
+.styleButton {
+	  padding: 9px 29px;
+	  margin-top: 3px;
+	  color: #FFAA00;
+	  font-family: "Interstate Condensed", sans-serif;
+	  border: 2px solid #FFAA00;
+	  border-radius: 4px;
+	  text-transform: uppercase;
+	  background-color: transparent;
+	  letter-spacing: 1px;
+}
+
+.styleButton2 {
+	  padding: 9px 29px;
+	  margin-top: 3px;
+	  color: #ffffff;
+	  font-family: "Interstate Condensed", sans-serif;
+	  border: 2px solid #ffffff;
+	  border-radius: 4px;
+	  text-transform: uppercase;
+	  background-color: transparent;
+	  letter-spacing: 1px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#three_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#center {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: center;
+	width: 30%;
+}
+
+#right {
+	background-color: #E566B8;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 30%;
+}
+
