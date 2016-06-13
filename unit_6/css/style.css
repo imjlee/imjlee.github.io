@@ -128,24 +128,30 @@ ul.list li {
 #left {
 	background-color: #E582A2;
 	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 30%;
+	padding: 4px;
+	width: 32.2%;
+	display:inline-block;
+	vertical-align: top;
+	height: 200px;
 }
 
 #center {
 	background-color: #E55B88;
 	border: 1px black solid;
-	padding: 20px;
-	float: center;
-	width: 30%;
+	padding: 4px;
+	width: 32.2%;
+	display:inline-block;
+	vertical-align: top;
+	height: 200px;
 }
 
 #right {
 	background-color: #E566B8;
 	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 30%;
+	padding: 4px;
+	width: 32.2%;
+	display:inline-block;
+	vertical-align: top;
+	height: 200px;
 }
 
