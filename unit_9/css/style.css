@@ -17,7 +17,7 @@ footer {
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    background-image: url(../images/main_banner_example.jpg);
+    background-image: url("https://mettakitchen.files.wordpress.com/2015/05/mohinga-71.jpg?w=1352&h=902");
     background-size: cover;
     background-repeat: no-repeat;
     line-height: 1.5;
@@ -62,7 +62,6 @@ p {
 
 ul.list {
     text-align: right;
-
 }
 
 ul.list li {
@@ -76,7 +75,7 @@ ul.list li {
 }
 
 ul.list li a{
-    text-decoration:none;
+    text-decoration: none;
 }
 
 ul, menu, dir {
@@ -89,14 +88,23 @@ ul, menu, dir {
     -webkit-padding-start: 0px;
 }
 
+a[href^="tel:"] {
+    text-decoration: none;
+}
+
+.no-touch a[href^="tel:"] {
+    pointer-events: none;
+    cursor: text;
+}
+
 #text {
     padding: 2em;
-    width: 35%;
+    width: 40%;
 }
 
 #text2 {
     padding: 2em;
-    width: 35%;
+    width: 40%;
 }
 
 #two_column {
@@ -113,6 +121,15 @@ ul, menu, dir {
     line-height: 1em;
 }
 
+#left2 {
+    display:inline-block;
+    vertical-align: top;
+    height: 90px;
+    text-align: left;
+    line-height: 1em;
+    position: relative;
+}
+
 #right {
     width: 45%;
     display:inline-block;
@@ -120,6 +137,15 @@ ul, menu, dir {
     height: 80px;
     text-align: left;
     line-height: 1em;
+}
+
+#right2 {
+    display:inline-block;
+    vertical-align: top;
+    height: 80px;
+    text-align: left;
+    line-height: 1em;
+    position: relative;
 }
 
 #index_footer {
@@ -150,8 +176,8 @@ ul, menu, dir {
     color: #444;
 }
 
-.gray2 {
-    color: #707e8e;
+.orange {
+    color: #ff7a00;
 }
 
 .white {
@@ -170,6 +196,7 @@ ul, menu, dir {
 .description2 {
     padding: 1em;
     background-color: rgba(255, 255, 255, 0.8);
+    vertical-align: top;
 }
 
 
@@ -221,6 +248,3 @@ ul, menu, dir {
         display: none;
     }
 }
-
-
-
