@@ -100,11 +100,13 @@ a[href^="tel:"] {
 #text {
     padding: 2em;
     width: 40%;
+    display: inline-block;
 }
 
 #text2 {
     padding: 2em;
     width: 40%;
+    display:inline-block;
 }
 
 #two_column {
@@ -124,7 +126,6 @@ a[href^="tel:"] {
 #left2 {
     display:inline-block;
     vertical-align: top;
-    height: 90px;
     text-align: left;
     line-height: 1em;
     position: relative;
@@ -142,7 +143,7 @@ a[href^="tel:"] {
 #right2 {
     display:inline-block;
     vertical-align: top;
-    height: 80px;
+   /* height: 80px;*/
     text-align: left;
     line-height: 1em;
     position: relative;
